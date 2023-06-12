@@ -1,0 +1,30 @@
+table, td, th {
+    border: 1px solid black;
+}
+th {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+thead {
+    background-color: darkgray;
+}
+.añadir{
+    position: absolute;
+    margin-left: 500px;
+}
+.editar{
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 500px;
+}
+.busqueda{
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 500px;
+}
+input {
+    width: 230px;
+}
+p {
+    font-size: 20px;
+}

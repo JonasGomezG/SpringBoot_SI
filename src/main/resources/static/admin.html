@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zona admin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Pactica Alumnos y Notas</h1>
+    <div class="añadir">
+        <p><strong>CREAR NUEVO ALUMNO</strong></p>
+        <input id="nombreAlumno" type="text" placeholder="Introduce el nombre del nuevo Alumno"> <br>
+        <input id="notaAlumno" type="text" placeholder="Introduce la nota del nuevo Alumno"> <br>
+        <button onclick="add()">Crear</button>
+    </div>
+    <div class="editar">
+        <p><strong>EDITAR ALUMNO</strong></p>
+        <input id="idAlumno" type="text" readonly> <br>
+        <input id="nuevo_nombre" type="text" placeholder="Introduce el nuevo nombre del Alumno"><br>
+        <input id="nueva_nota" type="text" placeholder="Intorduce la nueva nota del Alumno"><br>
+        <button onclick="editar()">Editar</button>
+    </div>
+    <div class="busqueda">
+    <p><strong>BUSCAR ALUMNO</strong></p>
+    <input id="busqueda" type="text" placeholder="Nombre del alumno que quieres ver"> <br>
+    <button onclick="unicoAlum()">Buscar</button>
+    </div>
+    <table id="alumnos">
+        <thead>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Nota</th>
+            <th>Acciones</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/tabla.js" ></script>
+</html>
+</html>

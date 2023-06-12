@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrarme</title>
+  <link rel="stylesheet" href="css/styleInicio.css">
+</head>
+<body>
+
+  <div class="container">
+    <label><b>Usuario</b></label>
+    <input type="text" placeholder="Introduce tu usuario" id="user" required>
+    <label><b>Contraseña</b></label>
+    <input type="password" placeholder="Introduce tu contraseña" id="passwd1" required>
+    <input type="password" placeholder="Vuelve a introducir la contraseña" id="passwd2" required>
+    <input type="text" placeholder="Introduce el código de administrador" id="code">
+    <button onclick="add()" type="submit">Registrarme</button>
+    <p style="color: red" id="error"></p>
+    <p>¿Ya tienes cuenta? <a href="inicioSesion.html">Inicia Sesión</a> </p>
+  </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/registro.js" ></script>
+</html>
